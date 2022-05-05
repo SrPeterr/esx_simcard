@@ -3,11 +3,10 @@ games { 'gta5' }
 
 author 'Musiker15'
 description 'ESX SimCard'
-version '1.2'
+version '1.3'
 
 shared_scripts {
-	'@es_extended/locale.lua',
-	'locales/*.lua',
+	'translation.lua',
 	'config.lua'
 }
 
@@ -17,10 +16,6 @@ client_scripts {
 
 server_scripts {
 	'@mysql-async/lib/MySQL.lua',
+	-- '@oxmysql/lib/MySQL.lua',
 	'server.lua'
-}
-
-dependencies {
-	'es_extended',
-	'mysql-async'
 }
