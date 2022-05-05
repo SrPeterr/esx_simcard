@@ -25,4 +25,12 @@ Translation = {
         ['phoneHeading'] = 'Tarjeta SIM',
         ['phoneText'] = 'Número de teléfono cambiado.',
     },
+    ['dk'] = {
+        ['numberExist'] = 'Sim kortet blev ikke godkendt, Prøv igen!',
+        ['updateNumber'] = 'Du har skiftet dit mobil nummer til ~g~ ',
+        ['updateNumber2'] = ' ~s~.',
+        ['noPhone'] = "Du har ikke nogen mobil på dig.",
+        ['phoneHeading'] = 'Sim Kort',
+        ['phoneText'] = 'Mobil nummer ændret.',
+    },
 }

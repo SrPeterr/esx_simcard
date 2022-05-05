@@ -1,6 +1,6 @@
 Config = {}
 ----------------------------------------------------------------
-Config.Locale = 'de' -- 'de', 'en', 'es'
+Config.Locale = 'de' -- 'de', 'en', 'es', 'dk'
 Config.VersionChecker = true
 Config.Debug = true
 ----------------------------------------------------------------
