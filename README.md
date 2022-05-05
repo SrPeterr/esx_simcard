@@ -10,6 +10,12 @@ FiveM Script - Usable Simcard
 * Changes the Phonenumber
 
 If you are using Chezza Phone, have a look at the Phone Guides at https://chezza.dev and search for **Updating Phonenumber**!
+## Installation 
+* **ESX:** Execute `database.sql`
+* **QBCore:** Add item to your `qb-core/shared/items.lua`
+```lua
+['simcard'] 			 	 	 = {['name'] = 'simcard', 			  			['label'] = 'Simcard', 				['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'simcard.png', 				['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Simcard that will change your phone number'},
+```
 
 ## Config
 ```lua
