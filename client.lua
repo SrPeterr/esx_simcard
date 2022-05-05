@@ -35,7 +35,7 @@ elseif Config.Framework:match('QBCore') then -- QBCore Framework
             if hasItem then
                 TriggerEvent('esx_simcard:useItem', source)
             else
-                QBCore.Functions.Notify("No tienes un teléfono", 'error', 5000)
+                QBCore.Functions.Notify(Translation[Config.Locale]['noPhone'], 'error', 5000)
             end 
         end, Config.phoneItem)
     end)
