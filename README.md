@@ -15,7 +15,7 @@ If you are using Chezza Phone, have a look at the Phone Guides at https://chezza
 ```lua
 Config = {}
 ----------------------------------------------------------------
-Config.Locale = 'de'
+Config.Locale = 'de' -- 'de', 'en', 'es', 'dk'
 Config.VersionChecker = true
 Config.Debug = true
 ----------------------------------------------------------------
