@@ -11,7 +11,7 @@ Translation = {
     },
     ['en'] = {
         ['numberExist'] = 'SIMcard was not recognized. Try again!',
-        ['updateNumber'] = 'Number has been successfully changed to ~g~ %s',
+        ['updateNumber'] = 'Number has been successfully changed to ~g~ ',
         ['updateNumber2'] = '~s~.',
         ['noPhone'] = "You don't have a phone with you.",
         ['phoneHeading'] = 'Simcard',
